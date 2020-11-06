@@ -28,7 +28,7 @@ function Register() {
       </form>
       <p>
         Already have an account?
-        <Link className="reg" to="/register">
+        <Link className="reg" to="/login">
           {" "}
           <span>Login</span>
         </Link>

@@ -49,7 +49,10 @@ function HomePage() {
     <div>
       <header>
         <nav>
-          <Link to="/">ANONYMOUS</Link>
+          <Link to="/anonymous">
+            {" "}
+            <div className="logo">ANONYMOUS</div>
+          </Link>
 
           <div className="nav-links">
             <Link to="/home">HOME</Link>
