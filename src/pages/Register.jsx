@@ -2,14 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Login.scss";
 
-function LoginPage() {
+function Register() {
   return (
     <div className="wrapper">
-      <h2>LOGIN</h2>
-      <p className="text">
-        Recieve anonymous compliments from your friends and send anonymous
-        messages to your friends for free.
-      </p>
+      <h2>REGISTER</h2>
       <form>
         <span>Username</span>
         <input
@@ -28,17 +24,17 @@ function LoginPage() {
           placeholder="Enter your password"
           required
         />
-        <button className="submit">Submit</button>
+        <button className="submit">Register Account</button>
       </form>
       <p>
-        Don't have account?
+        Already have an account?
         <Link className="reg" to="/register">
           {" "}
-          <span>Register</span>
+          <span>Login</span>
         </Link>
       </p>
     </div>
   );
 }
 
-export default LoginPage;
+export default Register;

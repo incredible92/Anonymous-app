@@ -54,15 +54,21 @@ function HomePage() {
           <div className="nav-links">
             <Link to="/home">HOME</Link>
             <Link to="/download">DOWNLOAD</Link>
-            <Link to="/get-started">
+            <div className="nav-link">
               <div className="start">
                 GET STARTED
                 <div className="ready">
-                  <p className="login">LOGIN</p>
-                  <p>REGISTER</p>
+                  <Link to="/login">
+                    {" "}
+                    <p className="login get-started">LOGIN</p>
+                  </Link>
+                  <Link to="/register ">
+                    {" "}
+                    <p className="get-started">REGISTER</p>
+                  </Link>
                 </div>
               </div>
-            </Link>
+            </div>
             <Link to="/contact">CONTACT</Link>
           </div>
         </nav>
