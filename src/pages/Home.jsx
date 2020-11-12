@@ -49,14 +49,13 @@ function HomePage() {
     <div>
       <header>
         <nav>
-          <Link to="/anonymous">
-            {" "}
-            <div className="logo">ANONYMOUS</div>
-          </Link>
-
+          {" "}
+          <div className="logo">ANONYMOUS</div>
           <div className="nav-links">
-            <Link to="/home">HOME</Link>
-            <Link to="/download">DOWNLOAD</Link>
+            <Link to="/">HOME</Link>
+            <div>
+              <a href="#down">DOWNLOAD</a>
+            </div>
             <div className="nav-link">
               <div className="start">
                 GET STARTED
@@ -65,7 +64,7 @@ function HomePage() {
                     {" "}
                     <p className="login get-started">LOGIN</p>
                   </Link>
-                  <Link to="/register ">
+                  <Link to="/register">
                     {" "}
                     <p className="get-started">REGISTER</p>
                   </Link>
@@ -122,7 +121,7 @@ function HomePage() {
       </div>
 
       <div className="downloads">
-        <h2>Download Anonymous App Today!</h2>
+        <h2 id="down">Download Anonymous App Today!</h2>
         <p className="download">
           Our app is easy to use, 5MB in size, and fun to play with! Simply
           download the app and get started with Kubool now. After you download

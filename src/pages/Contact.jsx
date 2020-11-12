@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Login.scss";
 
 function Contact() {
@@ -17,6 +16,7 @@ function Contact() {
         <a
           className="reg"
           href="https://twitter.com/S_Abdullahi_1"
+          rel="noreferrer"
           target="_blank"
         >
           @S_Abdullahi_1
