@@ -83,7 +83,9 @@ function HomePage() {
             can send and recieve anonymous compliments easily for free!
           </p>
         </div>
-        <button className="button">Download Now!</button>
+        <Link to="/message">
+          <button className="button">Message Now!</button>
+        </Link>
       </header>
 
       <div className="why">
