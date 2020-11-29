@@ -7,10 +7,7 @@ function Contact() {
       <h2>CONTACT US</h2>
       <span className="num">08060131846 OR 07060697495</span>
 
-      <p>
-        You can contact us using the following social media platforms listed
-        down below:
-      </p>
+      <p>You can contact us using the social media platform below:</p>
       <p>
         Twitter:
         <a
