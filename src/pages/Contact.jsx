@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="wrapper">
       <h2>CONTACT US</h2>
-      <span className="num">08060131846 OR 07060697495</span>
+      <span className="num">+234(0)8060131846 OR +234(0)7060697495</span>
 
       <p>You can contact us using the social media platform below:</p>
       <p>
